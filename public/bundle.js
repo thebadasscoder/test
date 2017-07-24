@@ -27444,6 +27444,30 @@ var LandingPage = _react2.default.createClass({
 						)
 					)
 				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "socialMedia" },
+				_react2.default.createElement(
+					"a",
+					{ href: "https://github.com/twilsonpierce" },
+					_react2.default.createElement("div", { className: "github" })
+				),
+				_react2.default.createElement(
+					"a",
+					{ href: "https://www.linkedin.com/in/tionnawilsonpierce/" },
+					_react2.default.createElement("div", { className: "linkedin" })
+				),
+				_react2.default.createElement(
+					"a",
+					{ href: "https://twitter.com/_heyitstionna" },
+					_react2.default.createElement("div", { className: "twitter" })
+				),
+				_react2.default.createElement(
+					"a",
+					{ href: "https://plus.google.com/u/0/116596075873554672175" },
+					_react2.default.createElement("div", { className: "googleplus" })
+				)
 			)
 		);
 	}
@@ -27491,7 +27515,7 @@ exports = module.exports = __webpack_require__(245)(undefined);
 
 
 // module
-exports.push([module.i, "body,html{\n\tbackground-color: #FF6C5C;\n\tfont-family: 'Open Sans Condensed', sans-serif;\n}\n\n.dotstyle ul {\n\tposition: relative;\n\tdisplay: inline-block;\n\tmargin: 0;\n\tpadding: 0;\n\tlist-style: none;\n\tcursor: default;\n\t-webkit-touch-callout: none;\n\t-webkit-user-select: none;\n\t-khtml-user-select: none;\n\t-moz-user-select: none;\n\t-ms-user-select: none;\n\tuser-select: none;\n}\n\n.dotstyle li {\n\tposition: relative;\n\tdisplay: block;\n\tmargin: 10px 16px;\n\twidth: 30px;\n\theight: 30px;\n\tcursor: pointer;\n}\n\n.dotstyle li a {\n\ttop: 180px;\n\tleft: 1100px;\n\twidth: 70%;\n\theight: 70%;\n\toutline: none;\n\tborder-radius: 50%;\n\tbackground-color: #fff;\n\tbackground-color: rgba(255, 255, 255, 0.3);\n\ttext-indent: -999em; /* make the text accessible to screen readers */\n\tcursor: pointer;\n\tposition: absolute;\n}\n\n.dotstyle li a:focus {\n\toutline: none;\n}\n\n.dotstyle-scaleup li a {\n\t-webkit-transition: -webkit-transform 0.3s ease, background-color 0.3s ease;\n\ttransition: transform 0.3s ease, background-color 0.3s ease;\n}\n\n.dotstyle-scaleup li a:hover,\n.dotstyle-scaleup li a:focus {\n\tbackground-color: white;\n}\n\n.dotstyle-scaleup li.current a {\n\tbackground-color: white;\n\t-webkit-transform: scale(1.3);\n\ttransform: scale(1.3);\n}\n", ""]);
+exports.push([module.i, "body,html{\n\tbackground-color: #FF6C5C;\n\tfont-family: 'Open Sans Condensed', sans-serif;\n\tcolor: white;\n}\n\n.dotstyle ul {\n\tposition: relative;\n\tdisplay: inline-block;\n\tmargin: 0;\n\tpadding: 0;\n\tlist-style: none;\n\tcursor: default;\n\t-webkit-touch-callout: none;\n\t-webkit-user-select: none;\n\t-khtml-user-select: none;\n\t-moz-user-select: none;\n\t-ms-user-select: none;\n\tuser-select: none;\n}\n\n.dotstyle li {\n\tposition: relative;\n\tdisplay: block;\n\tmargin: 10px 16px;\n\twidth: 30px;\n\theight: 30px;\n\tcursor: pointer;\n}\n\n.dotstyle li a {\n\ttop: 180px;\n\tleft: 1100px;\n\twidth: 63%;\n\theight: 63%;\n\toutline: none;\n\tborder-radius: 50%;\n\tbackground-color: #fff;\n\tbackground-color: rgba(255, 255, 255, 0.3);\n\ttext-indent: -999em; /* make the text accessible to screen readers */\n\tcursor: pointer;\n\tposition: absolute;\n}\n\n.dotstyle li a:focus {\n\toutline: none;\n}\n\n/* Scale Up Dots */\n.dotstyle-scaleup li a {\n\t-webkit-transition: -webkit-transform 0.3s ease, background-color 0.3s ease;\n\ttransition: transform 0.3s ease, background-color 0.3s ease;\n}\n\n.dotstyle-scaleup li a:hover,\n.dotstyle-scaleup li a:focus {\n\tbackground-color: white;\n}\n\n.dotstyle-scaleup li.current a {\n\tbackground-color: white;\n\t-webkit-transform: scale(1.3);\n\ttransform: scale(1.3);\n}\n\n/* Social Media Links */\n\ndiv.socialMedia{\n\tdisplay:flex;\n\talign-content: space-between;\n\tmargin-left: 1080px;\n\tmargin-top:390px;\n}\n\ndiv.linkedin{\n\tbackground-image: url('/ui/linkedin.png');\n\tbackground-repeat: none;\n\tdisplay: inline-block;\n\twidth: 24px;\n\theight: 24px;\n\tmargin-left: 5px;\n}\ndiv.twitter{\n\tbackground-image: url('/ui/twitter-logo.png');\n\tbackground-repeat: none;\n\tdisplay: inline-block;\n\twidth:24px;\n\theight:24px;\n\tmargin-left: 9px;\n}\ndiv.github{\n\tbackground-image: url('/ui/github-logo.png');\n\tbackground-repeat: none;\n\tdisplay: inline-block;\n\twidth: 26px;\n\theight: 26px;\n}\ndiv.googleplus{\n\tbackground-image: url('/ui/google-plus.png');\n\tbackground-repeat: none;\n\tdisplay: inline-block;\n\twidth: 23px;\n\theight: 23px;\n\tmargin-left: 9px;\n}\n", ""]);
 
 // exports
 
