@@ -4,6 +4,17 @@ body,html{
 	color: white;
 }
 
+
+/* Main Nav Bar */
+div.navBar ul{
+	display:flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+
+
+/* Dots Naviagtion Menu */
 .dotstyle ul {
 	position: relative;
 	display: inline-block;
@@ -69,7 +80,7 @@ div.socialMedia{
 	display:flex;
 	align-content: space-between;
 	margin-left: 1080px;
-	margin-top:390px;
+	margin-top: 380px;
 }
 
 div.linkedin{
@@ -95,11 +106,4 @@ div.github{
 	width: 26px;
 	height: 26px;
 }
-div.googleplus{
-	background-image: url('/ui/google-plus.png');
-	background-repeat: none;
-	display: inline-block;
-	width: 23px;
-	height: 23px;
-	margin-left: 9px;
-}
+
